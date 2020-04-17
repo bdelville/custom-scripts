@@ -1,8 +1,8 @@
 import xml.dom.minidom
 from xml.dom.minidom import Node
 
-filename = "C:/Users/bdelville/Desktop/android/script/python/strings.xml"
-oputputfilename = "C:/Users/bdelville/Desktop/android/script/python/output.csv"
+filename = "./strings.xml"
+oputputfilename = "./output.csv"
 fileout = open(oputputfilename, "w")
 
 doc = xml.dom.minidom.parse(filename)
